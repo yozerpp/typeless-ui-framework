@@ -1,0 +1,27 @@
+{
+  "name": "typeless-data-representation-framework-frontend",
+  "version": "0.0.1",
+  "description": "Can be used to build data representation elements without knowing their type(by fetching how it should be represented from backend)",
+  "private": false,
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "type", "type-agnostic"
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+
+    "test": "webpack --config webpack.config.test.js && webpack-dev-server --mode development --config webpack.config.test.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^5.0.0"
+  }
+}
